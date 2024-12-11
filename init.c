@@ -39,6 +39,6 @@ int ls(void){
  int i=0;
  for(;i<64&&*bmfs.dir[i].FileName;i++)
   pf("%s ",bmfs.dir[i].FileName);
- if(i)pf("\n");
+ pf("\n");
  return 0;
 }
