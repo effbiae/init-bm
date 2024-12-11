@@ -16,3 +16,8 @@ when the pc is started, i want monitor to see that init.app is the first file an
 we wouldn't need to check for "only one file" in monitor any more.
 
 see the monitor PR for a patch to baremetal.sh
+
+### testing with this repo
+clone this repo and edit the makefile to point B to BareMetal-OS directory
+
+run `make qemu` or `make bochs` to test the functionality
